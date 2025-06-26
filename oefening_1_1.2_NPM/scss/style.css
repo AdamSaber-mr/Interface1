@@ -1,0 +1,17 @@
+.navbar > .container {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.formulier > .container {
+    margin-top: 50px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+}
