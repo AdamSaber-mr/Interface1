@@ -41,9 +41,62 @@
     <section class="products">
 
         <div class="container">
-            <div class="card">
-                <img class="card-img-top" src="./media/2200xxs.webp">
+            <h2>Products</h2>
+            <div class="row">
+                
+                <div class="col-4">
+                    <div class="card">
+                        <a href="#" class="card-link">
+                        <img class="card-img-top" src="./media/2200xxs.webp">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Project Licence, 584 M2 Living
+                            </div>
+                            <div class="card-text">
+                                Probably the best new build villa opportunity on the
+                                Costa Blanca Spain (Javea, Denia, Moraira).
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <a href="#" class="card-link">
+                        <img class="card-img-top" src="./media/2200xxssss.webp">
+                        <div class="card-body">
+                            <div class="card-title">
+                                102 South Shore Road
+                            </div>
+                            <div class="card-text">
+                                Seize the best value on Twin Lakes! Compare this stunning
+                                Salisbury estate to the recently sold 29.
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <a href="#" class="card-link">
+                        <img class="card-img-top" src="./media/2200xxssw.webp">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Magnificent Villa With Infinity Pool
+                            </div>
+                            <div class="card-text">
+                                JA Abraham Boulevard 70, better known as Kas Playa,
+                                is an impressive villa with a private pool.
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                
             </div>
+
         </div>
 
     </section>
@@ -51,21 +104,44 @@
     <section class="formulier">
 
         <div class="container">
+            <h2>Contact Formulier</h2>
             <form novalidate>
                 <label for="name" class="form-label">Name:</label>
                 <input type="text" id="name" class="form-control" placeholder="John" required>
+                <div class="invalid-feedback">
+                    Wrong input!
+                </div>
 
                 <label for="last" class="form-label">Last Name:</label>
                 <input type="text" id="last" class="form-control" placeholder="Jhones" required>
+                <div class="invalid-feedback">
+                    Wrong input!
+                </div>
 
                 <label for="phone" class="form-label">Phone Number:</label>
                 <div class="input-group">
                     <div class="input-group-text">NL</div>
                     <input type="tel" id="phone" class="form-control" placeholder="0638495361" required>
                 </div>
+                <div class="invalid-feedback">
+                    Wrong input!
+                </div>
 
                 <label for="email" class="form-label">Email:</label>
                 <input type="email" id="email" class="form-control" placeholder="John@gmail.com" required>
+                <div class="invalid-feedback">
+                    Wrong input!
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="terms" required>
+                    <label class="form-check-label" for="terms">
+                        Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
                 
                 <button id="submit" class="btn btn-primary">Submit</button>
             </form>
