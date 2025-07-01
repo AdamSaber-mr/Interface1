@@ -8,23 +8,6 @@ html {
     gap: 40px;
 }
 
-.formulier {
-    margin-top: 50px;
-}
-
-.form-label {
-    margin-top: 0.5rem;
-}
-
-.form-check {
-    margin-top: 1rem;
-}
-
-#submit {
-    margin-top: 20px;
-}
-
-
 .products {
     margin-top: 50px;
 }
@@ -70,4 +53,28 @@ html {
 
 .card:hover {
     transform: scale(1.02);
+}
+
+.database {
+    margin-top: 50px;
+}
+
+.table {
+    margin-top: 15px;
+}
+
+.formulier {
+    margin-top: 50px;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+}
+
+.form-check {
+    margin-top: 1rem;
+}
+
+#submit {
+    margin-top: 20px;
 }
