@@ -1,0 +1,46 @@
+.kledingStukken {
+    margin-top: 50px;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 19px;
+    font-weight: bold;
+    font-size: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 20px;
+    color: #606060;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}

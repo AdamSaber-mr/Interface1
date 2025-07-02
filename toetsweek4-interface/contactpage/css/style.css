@@ -1,0 +1,19 @@
+.formulier {
+    margin-top: 50px;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+}
+
+.form-check {
+    margin-top: 1rem;
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+#tip-feedback {
+    font-size: 20px;
+}
